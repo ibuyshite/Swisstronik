@@ -1,13 +1,24 @@
-# Sample Hardhat Project
+# Swisstronik Testnet
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This repository contains the necessary scripts to set up and interact with a smart contract on the Swisstronik Testnet using Hardhat.
 
-Try running some of the following tasks:
+## Setup Instructions
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+1. **Clone the Repository:**
+
+    ```sh
+    git clone https://github.com/dante4rt/swisstronik-testnet.git
+    cd swisstronik-testnet
+    ```
+
+2. **Run the Setup Script:**
+
+    ```sh
+    ./swisstronik.sh
+    ```
+
+3. **Follow the Prompts:**
+
+    - Choose **JavaScript** when prompted.
+    - Use the default directory (just press Enter).
+    - Press **y** to confirm any prompts.
